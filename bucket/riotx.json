@@ -1,11 +1,11 @@
 {
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Get data in and out of Redis with RIOT-X",
   "homepage": "https://github.com/redis-field-engineering/riotx-dist",
   "license": "Apache-2.0",
-  "url": "https://github.com/redis-field-engineering/riotx-dist/releases/download/v0.4.1/riotx-0.4.1.zip",
-  "hash": "sha256:cb9f12a5563a65a15dcb58234c25767752aeed9f4972b9faf1799f38b9fb2208",
-  "extract_dir": "riotx-0.4.1",
+  "url": "https://github.com/redis-field-engineering/riotx/releases/download/v0.4.2/riotx-0.4.2.zip",
+  "hash": "sha256:dc6cdf5911e72708fc84518621541bae9493fb24a4381dbb913362e6ba9e11b1",
+  "extract_dir": "riotx-0.4.2",
   "env_add_path": "bin",
   "suggest": {
     "JDK": [
@@ -14,11 +14,11 @@
     ]
   },
   "checkver": {
-    "url": "https://github.com/redis-field-engineering/riotx-dist/releases/latest",
+    "url": "https://github.com/redis-field-engineering/riotx/releases/latest",
     "re": "v([\\d.]+).zip"
   },
   "autoupdate": {
-    "url": "https://github.com/redis-field-engineering/riotx-dist/releases/download/v$version/riotx-$version.zip",
+    "url": "https://github.com/redis-field-engineering/riotx/releases/download/v$version/riotx-$version.zip",
     "extract_dir": "riotx-$version",
     "hash": {
       "url": "$url.sha256"
