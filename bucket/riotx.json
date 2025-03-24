@@ -1,27 +1,27 @@
 {
-  "version": "0.4.3",
-  "description": "Get data in and out of Redis with RIOT-X",
-  "homepage": "https://github.com/redis-field-engineering/riotx-dist",
-  "license": "Apache-2.0",
-  "url": "https://github.com/redis-field-engineering/riotx-dist/releases/download/v0.4.3/riotx-0.4.3.zip",
-  "hash": "sha256:c54a7b8b356b3fd8a588cc43b638d006704c6eb3ec7f69715936f7fc0aea5100",
-  "extract_dir": "riotx-0.4.3",
-  "env_add_path": "bin",
-  "suggest": {
-    "JDK": [
-      "java/oraclejdk",
-      "java/openjdk"
-    ]
-  },
-  "checkver": {
-    "url": "https://github.com/redis-field-engineering/riotx/releases/latest",
-    "re": "v([\\d.]+).zip"
-  },
-  "autoupdate": {
-    "url": "https://github.com/redis-field-engineering/riotx-dist/releases/download/v$version/riotx-$version.zip",
-    "extract_dir": "riotx-$version",
-    "hash": {
-      "url": "$url.sha256"
+    "version": "0.5.0",
+    "description": "Get data in and out of Redis with RIOT-X",
+    "homepage": "https://github.com/redis-field-engineering/riotx-dist",
+    "license": "Apache-2.0",
+    "url": "https://github.com/redis-field-engineering/riotx-dist/releases/download/v0.5.0/riotx-0.5.0.zip",
+    "hash": "sha256:d8b1c985c86cfd1d8463c76d796db557e4b878abb0f0f486315580959cab604e",
+    "extract_dir": "riotx-0.5.0",
+    "env_add_path": "bin",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "checkver": {
+        "url": "https://github.com/redis-field-engineering/riotx/releases/latest",
+        "re": "v([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/redis-field-engineering/riotx-dist/releases/download/v$version/riotx-$version.zip",
+        "extract_dir": "riotx-$version",
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
-  }
 }
