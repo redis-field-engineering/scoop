@@ -4,7 +4,7 @@
     "homepage": "https://github.com/redis-field-engineering/riotx-dist",
     "license": "Apache-2.0",
     "url": "https://github.com/redis-field-engineering/riotx-dist/releases/download/v0.6.3/riotx-0.6.3.zip",
-    "hash": "sha256:caffea1d51cfd790cccb6468b1a7b4b9c9618546b1893d7bfafe2007f36f0dea",
+    "hash": "sha256:a21b20b305941da6b5d0dcc9f41a038a7ac0a07d6ac9cd9c3663557461dacc46",
     "extract_dir": "riotx-0.6.3",
     "env_add_path": "bin",
     "suggest": {
